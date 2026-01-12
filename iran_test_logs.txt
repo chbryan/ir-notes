@@ -1,0 +1,46 @@
+https://irangov.ir/
+https://iran.gov.ir/
+https://president.ir/
+
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-01-12 16:26 CST
+Nmap scan report for www.irangov.ir (185.143.234.235)
+Host is up (0.17s latency).
+Other addresses for www.irangov.ir (not scanned): 185.143.233.235
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  open   https
+8080/tcp open   http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 47.78 seconds
+
+nmap www.iran.gov.ir
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-01-12 16:28 CST
+Note: Host seems down. If it is really up, but blocking our ping probes, try -Pn
+Nmap done: 1 IP address (0 hosts up) scanned in 8.21 seconds
+
+nmap www.president.ir
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-01-12 16:29 CST
+Nmap scan report for www.president.ir (185.143.234.235)
+Host is up (0.14s latency).
+Other addresses for www.president.ir (not scanned): 185.143.233.235
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+53/tcp   closed domain
+80/tcp   open   http
+443/tcp  open   https
+8080/tcp open   http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 30.49 seconds
+
+nmap -Pn www.iran.gov.ir
+Starting Nmap 7.93 ( https://nmap.org ) at 2026-01-12 16:30 CST
+Nmap scan report for www.iran.gov.ir (78.38.239.19)
+Host is up (0.00015s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE  SERVICE
+53/tcp closed domain
+
+Nmap done: 1 IP address (1 host up) scanned in 8.77 seconds
+
